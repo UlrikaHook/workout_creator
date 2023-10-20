@@ -2,6 +2,8 @@ part of 'workouts_bloc.dart';
 
 class WorkoutsEvent {}
 
+class InitState extends WorkoutsEvent {}
+
 class AddWorkout extends WorkoutsEvent {
   Workout workout;
   AddWorkout({required this.workout});
